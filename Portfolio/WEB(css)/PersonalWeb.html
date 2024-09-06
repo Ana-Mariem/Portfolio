@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal website</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 3px solid black;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: rgb(195, 163, 225);
+        }
+        img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="name">Ana Mariem</h1>
+        <p class="info"><b>Student</b><br> Gonzaga 4116<br> Zapopan</p>
+        <blockquote class="quote">"Just a little braver..." ~ Felix Lee</blockquote>
+        <div class="image-container">
+            <img src="images/Yo.JPG" alt="Profile pic" class="profile-image">
+        </div>  
+    </div>  
+
+    <hr>
+
+    <div class="page-container">
+        <p>A daughter, a sister, a digital animation student and a friend who would like to offer you a 
+            possible safe space to be yourself, a good time, random midnight thoughts and laughs, also new perspectives and a helping hand for when you feel stuck.
+        </p>
+
+        <div class="center-text">
+            <p>Want to know a bit more about me?</p>
+        </div>
+
+        <div class="navbar">
+            <a href="Destinations.html" class="button">My favorite spots</a>
+            <a href="#table" class="button">People I admire</a>
+            <a href="#education" class="button">Education</a>
+            <a href="#fav food" class="button">Favorite food</a>
+            <a href="#books" class="button">Books, movies & TV shows</a>
+            <a href="#agenda" class="button">Agenda</a>
+        </div>
+
+        <div>
+            <h2 id="background">Background</h2>
+            <p>Since I was little I have always enjoyed drawing, as well as colors and observing my surroundings. 
+                Growing up I became very interested in cinema and the endless possibilities it offered to create stories and new worlds. 
+                So, digital animation seemed like a great idea to me; combining something I enjoyed with technology.
+                My goal as a future professional is to be able to work in a film studio or in the production of a video game, 
+                being able to contribute with my ideas and skills in the creation of something that people can enjoy.</p>
+        </div>
+
+        <div>
+            <h2 id="education" class="section">Education</h2>
+            <div class="accordion">
+                         <li><em>2010 - 2022</em> <b>Colegio Cristóbal Colón</b>, Estado de México
+                         <li><em>2022 - Actual</em> <b>Universidad Panamericana</b>
+                <button class="accordion-button">Click me!</button>   
+                <div class="accordion-content">
+                    <ul>
+                            <p>Get to know more about CCC <a href="https://www.ccc.edu.mx" target="_blank">over here</a></p>
+                            <a href="https://www.ccc.edu.mx" target="_blank">
+                                <img src="images/ccc.png" alt="Logo CCC" width="200px"/>
+                            </a>
+                        </li>
+                        
+                            <p>Get to know more about UP Guadalajara <a href="https://www.up.edu.mx/campus-guadalajara/" target="_blank">over here</a></p>
+                            <a href="https://www.up.edu.mx/campus-guadalajara/" target="_blank">
+                                <img src="images/up-logo.jpg" alt="Logo UP" width="200px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Skills</h2>
+            <ol>
+                <li>English 85%</li>
+                <li>Analytical thinking 70%</li>
+                <li>Problem solving 65%</li>
+                <li>Maya 55%</li>
+                <li>Photoshop 50%</li>
+            </ol>
+        </div>
+
+        <div>
+            <h2>Hobbies</h2>
+            <h3 id="fav food" class="section">Favorite food</h3>
+            <p>Top 5 favorite cuisines</p>
+            <ol id="top5">
+                <li>Mexican</li>
+                <li>Italian</li>
+                <li>Korean</li>
+                <li>Japanese</li>
+                <li>Indian</li>
+            </ol>
+            <p>Top 3 least favorite cuisines</p>
+            <ol start="19" id="bot3">
+                <li>French</li>
+                <li>Portuguese</li>
+                <li>Turkish</li>
+            </ol>
+
+            <h3 id="books" class="section">Books, Movies & TV shows</h3>
+            <ul>
+                <li>Books
+                    <img src="images/ChaosWalking.jpeg" alt="Chaos walking" width="100px">
+                    <img src="images/Aura.jpeg" alt="Aura" width="100px">
+                    <img src="images/Selenofilia.jpeg" alt="Selenofilia" width="100px">
+                    <ol type="i">
+                        <li>Chaos walking</li>
+                        <li>Aura</li>
+                        <li>Selenofilia</li>
+                    </ol>
+                </li>
+                <li>Movies
+                    <img src="images/LittleWoman.jpg" alt="Little women" width="100px">
+                    <img src="images/CivilWar.jpg" alt="Civil war" width="100px">
+                    <img src="images/RiseOfTheGuardians.jpg" alt="Rise of the guardian" width="100px">
+                    <ol type="i">
+                        <li>Little women</li>
+                        <li>Captain America: Civil war</li>
+                        <li>Rise of the Guardians</li>
+                    </ol>
+                </li>
+                <li>TV Shows
+                    <img src="images/Smiling.jpeg" alt="Falling into your smile" width="100px">
+                    <img src="images/Grey'sAnatomy.jpg" alt="Grey's anatomy" width="100px">
+                    <img src="images/arrow.jpg" alt="Arrow" width="100px">
+                    <ol type="i">
+                        <li>Falling into your smile</li>
+                        <li>Grey's Anatomy</li>
+                        <li>Arrow</li>
+                    </ol>
+                </li>
+            </ul>
+        </div>
+
+        <div>
+            <h2 id="table" class="section">People I admire</h2>
+            <table>
+                <tr>
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Date of Birth / Date of Death</th>
+                    <th>Profession</th>
+                    <th>Achievements / Famous Work</th>
+                </tr>
+                <!-- P1 -->
+                <tr>
+                    <td><img src="images/Zendaya.jpg" alt="Zendaya"></td>
+                    <td>Zendaya</td>
+                    <td>September 1st 1996</td>
+                    <td>Actress</td>
+                    <td>
+                        <ul>
+                            <li>Youngest actress to win an Emmy for a drama series.</li>
+                            <li>Known as a "fashion icon"</li>
+                            <li>Debuted as a designer with a collection for Tommy Hilfiger, TommyxZendaya, and is the face of Lancôme</li>
+                            <p><b>Famous work</b></p>
+                            <li>Euphoria</li>
+                            <li>Dune</li>
+                            <li>Jon Watts's Spider-Man</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!-- P2 -->
+                <tr>
+                    <td><img src="images/StrayKids.jpg" alt="SKZ"></td>
+                    <td>Stray Kids</td>
+                    <td>Group's debut date: March 25th, 2018</td>
+                    <td>Singers</td>
+                    <td>
+                        <ul>
+                            <li>#1 on the Billboard 200 twice in 2022, with the albums "Oddinary" and "Maxident."</li>
+                            <li>Received awards such as the Golden Disc Award, MAMA Award for Most Popular Group, MTV Award for Best K-pop Video, among others.</li>
+                            <li>Some members of the group are ambassadors and have worked with major brands such as Versace, Louis Vuitton, Alexander McQueen, Tommy Hilfiger, etc.</li>
+                            <p><b>Famous work</b></p>
+                            <li>"God's Menu" - GO LIVE</li>
+                            <li>"Maniac" - Oddinary</li>
+                            <li>"S-Class" - 5 Star</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!-- P3 -->
+                <tr>
+                    <td><img src="images/Monet.jpeg" alt="Monet"></td>
+                    <td>Claude Monet</td>
+                    <td>November 14th 1840 / December 5th 1926</td>
+                    <td>Painter</td>
+                    <td>
+                        <ul>
+                            <li>One of the founders of the French Impressionist movement.</li>
+                            <li>His works have been exhibited in some of the most prestigious galleries in the world.</li>
+                            <li>One of the first artists to explore the technique of “series” or “repetition”.</li>
+                            <p><b>Famous work</b></p>
+                            <li>Impression, Sunrise</li>
+                            <li>Bridge over a Pond of Water Lilies</li>
+                            <li>Women with a Parasol</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h2 id="agenda" class="section">Weekly Schedule Form</h2>
+            <form>
+                <!-- Date -->
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br>
+                <hr>
+
+                <!-- Time -->
+                <label for="time-start">Time Start:</label>
+                <input type="time" id="time-start" name="time-start"><br>
+
+                <label for="time-end">Time End:</label>
+                <input type="time" id="time-end" name="time-end"><br>
+                <hr>
+
+                <!-- Activity -->
+                <label for="activity">Activity:</label>
+                <input type="text" id="activity" name="activity"><br>
+                <hr>
+
+                <!-- Place -->
+                <label for="place">Place:</label>
+                <input type="text" id="place" name="place"><br>
+                <hr>
+
+                <!-- Type -->
+                <label for="type">Type:</label>
+                <select id="type" name="type">
+                    <option value="school">School</option>
+                    <option value="personal">Personal</option>
+                    <option value="professional">Professional</option>
+                    <option value="familiar">Familiar</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <hr>
+
+                <!-- Notes -->
+                <label for="notes">Notes:</label><br>
+                <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br>
+                <hr>
+
+                <!-- Flag -->
+                <label for="flag">Flag (color):</label>
+                <input type="color" id="flag" name="flag"><br>
+                <hr>
+
+                <!-- Free/Busy -->
+                <label for="free-busy">Free/Busy:</label>
+                <input type="checkbox" id="free-busy" name="free-busy" value="busy"> Busy<br>
+                <hr>
+
+                <!-- Submit -->
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

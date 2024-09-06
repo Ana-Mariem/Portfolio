@@ -1,0 +1,25 @@
+.flag{
+    border: none;
+    width: 150px;
+ }
+
+
+img{
+     width: 150px;
+     border: solid !important;
+ } 
+
+ h2:hover{
+    color:blueviolet;
+    font-weight: bolder;
+ }
+
+ .image{
+   display: inline;
+ }
+
+ .location{
+   display: inline-block;
+ }
+     
+     
