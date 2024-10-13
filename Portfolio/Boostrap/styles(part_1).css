@@ -1,0 +1,12 @@
+body {
+  padding: 20px;
+}
+
+.icon-link {
+  display: flex;
+  align-items: center;
+}
+
+.icon-link svg {
+  margin-right: 5px;
+}
