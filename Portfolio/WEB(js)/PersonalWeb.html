@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My personal website</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 3px solid black;
+        }
+        th, td {
+            padding: 15px;
+            text-align: left;
+        }
+        th {
+            background-color: rgb(195, 163, 225);
+        }
+        img {
+            width: 100px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 class="name">Ana Mariem</h1>
+        <p class="info"><b>Student</b><br> Gonzaga 4116<br> Zapopan</p>
+        <blockquote class="quote">"Just a little braver..." ~ Felix Lee</blockquote>
+        <div class="image-container">
+            <img src="images/Yo.JPG" alt="Profile pic" class="profile-image">
+        </div>  
+    </div>  
+
+    <hr>
+
+    <div class="page-container">
+        <p>A daughter, a sister, a digital animation student and a friend who would like to offer you a 
+            possible safe space to be yourself, a good time, random midnight thoughts and laughs, also new perspectives and a helping hand for when you feel stuck.
+        </p>
+
+        <div class="center-text">
+            <p>Want to know a bit more about me?</p>
+        </div>
+
+        <div class="navbar">
+            <a href="Destinations.html" class="button">My favorite spots</a>
+            <a href="#table" class="button">People I admire</a>
+            <a href="#education" class="button">Education</a>
+            <a href="#fav food" class="button">Favorite food</a>
+            <a href="#books" class="button">Books, movies & TV shows</a>
+            <a href="#agenda" class="button">Agenda</a>
+        </div>
+
+        <div>
+            <h2 id="background">Background</h2>
+            <p>Since I was little I have always enjoyed drawing, as well as colors and observing my surroundings. 
+                Growing up I became very interested in cinema and the endless possibilities it offered to create stories and new worlds. 
+                So, digital animation seemed like a great idea to me; combining something I enjoyed with technology.
+                My goal as a future professional is to be able to work in a film studio or in the production of a video game, 
+                being able to contribute with my ideas and skills in the creation of something that people can enjoy.</p>
+        </div>
+
+        <div>
+            <h2 id="education" class="section">Education</h2>
+            <div class="accordion">
+                         <li><em>2010 - 2022</em> <b>Colegio Cristóbal Colón</b>, Estado de México
+                         <li><em>2022 - Actual</em> <b>Universidad Panamericana</b>
+                <button class="accordion-button">Click me!</button>   
+                <div class="accordion-content">
+                    <ul>
+                            <p>Get to know more about CCC <a href="https://www.ccc.edu.mx" target="_blank">over here</a></p>
+                            <a href="https://www.ccc.edu.mx" target="_blank">
+                                <img src="images/ccc.png" alt="Logo CCC" width="200px"/>
+                            </a>
+                        </li>
+                        
+                            <p>Get to know more about UP Guadalajara <a href="https://www.up.edu.mx/campus-guadalajara/" target="_blank">over here</a></p>
+                            <a href="https://www.up.edu.mx/campus-guadalajara/" target="_blank">
+                                <img src="images/up-logo.jpg" alt="Logo UP" width="200px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h2>Skills</h2>
+            <ol>
+                <li>English 85%</li>
+                <li>Analytical thinking 70%</li>
+                <li>Problem solving 65%</li>
+                <li>Maya 55%</li>
+                <li>Photoshop 50%</li>
+            </ol>
+        </div>
+
+        <div>
+            <h2>Hobbies</h2>
+            <h3 id="fav food" class="section">Favorite food</h3>
+            <p>Top 5 favorite cuisines</p>
+            <ol id="top5">
+                <li>Mexican</li>
+                <li>Italian</li>
+                <li>Korean</li>
+                <li>Japanese</li>
+                <li>Indian</li>
+            </ol>
+            <p>Top 3 least favorite cuisines</p>
+            <ol start="19" id="bot3">
+                <li>French</li>
+                <li>Portuguese</li>
+                <li>Turkish</li>
+            </ol>
+
+            <h3 id="books" class="section">Books, Movies & TV shows</h3>
+            <!-- Item 1 -->
+    <div class="item">
+        <img src="images/ChaosWalking.jpeg" alt="Chaos walking">
+        <h4>Chaos Walking</h4>
+    </div>
+    <div class="accordion">
+        <button class="accordion-button">See Synopsis</button>
+        <div class="accordion-content">
+            <p><strong>Chaos Walking</strong> is a dystopian series that follows the journey of a boy living in a world where thoughts are audible, and he discovers a shocking truth about his town and himself.</p>
+            <p><b>My humble opinion:</b>
+                It is one of the sagas that has captivated me the most, it has many twists and turns that you don't see coming and you end up hating and loving the characters, recommended.
+                 (not so recommended the movie though heh. It's good... but not that much 🤨)</p>
+        </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="item">
+        <img src="images/Aura.jpeg" alt="Aura">
+        <h4>Aura</h4>
+    </div>
+    <div class="accordion">
+        <button class="accordion-button">See Synopsis</button>
+        <div class="accordion-content">
+            <p><strong>Aura</strong> is a classic Mexican novel that mixes mystery, supernatural elements, and romance, where a young man encounters a strange woman living with her elderly aunt.</p>
+            <p><b>General opinions:</b>
+                It's very strange, but it's very good... you know? I read it because my mom lent it to me and after only 65 pages I was very confused but I enjoyed a great mystery story. 👍</p>
+        </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="item">
+        <img src="images/Selenofilia.jpeg" alt="Selenofilia">
+        <h4>Selenofilia</h4>
+    </div>
+    <div class="accordion">
+        <button class="accordion-button">See Synopsis</button>
+        <div class="accordion-content">
+            <p><strong>Selenofilia</strong> Selenophilia? It talks about love and hate, society and individualism, having everything and owning nothing, reality and fiction. A world of opposite situations and contradictory lives that are submerged in a network of plots that seek a common point.</p>
+            <p><b>More opinions:</b> I usually read more fantasy or fiction things far from reality, in this case Selenophilia falls into a fairly normal context we could say... even so I think it's worth it, it's one of the books I've enjoyed the most and finished the fastest (should I read it again..? yeah...) </p>
+        </div>
+    </div>
+
+    <h3 id="movies" class="section">Movies</h3>
+
+    <!-- Item 1 -->
+    <div class="item">
+        <img src="images/LittleWoman.jpg" alt="Little women">
+        <h4>Little Women</h4>
+    </div>
+    <div class="accordion">
+        <button class="accordion-button">See Synopsis</button>
+        <div class="accordion-content">
+            <p><strong>Little Women</strong> tells the story of four sisters coming of age in post-Civil War America, exploring themes of independence, love, and family dynamics.</p>
+            <p><b>What do you think?</b> It's one of my favorite movies, I don't watch it very often but I love it. The story and the acting are very good, plus we have Timothée, what else do we need? The book is also very good btw.</p>
+        </div>
+    </div>
+
+    <!-- Item 2 -->
+    <div class="item">
+        <img src="images/CivilWar.jpg" alt="Civil war">
+        <h4>Captain America: Civil War</h4>
+    </div>
+    <div class="accordion">
+        <button class="accordion-button">See Synopsis</button>
+        <div class="accordion-content">
+            <p><strong>Captain America: Civil War</strong> centers on a political disagreement within the Avengers, leading to a fierce conflict between Captain America and Iron Man.</p>
+            <p><b>Important moment:</b>
+            The real question is, which team are you? I don't know how many times I've seen this movie, 10/10, thanks for so much. I've seen it especially a lot with my dad, 
+            who never tires of telling me why Capital America is right (we're on the same team but he still explains his entire analysis to me every time we watch it 👍 )</p>
+        </div>
+    </div>
+    <!-- Item 3 -->
+    <div class="item">
+        <img src="images/RiseOfTheGuardians.jpg" alt="Rise of the guardians">
+        <h4>Rise of the Guardians</h4>
+    </div>
+    <div class="accordion">
+        <button class="accordion-button">See Synopsis</button>
+        <div class="accordion-content">
+            <p><strong>Rise of the Guardians</strong> follows a group of mythical figures, including Santa Claus, the Easter Bunny, and the Tooth Fairy, 
+                as they join forces to protect the innocence of children from the dark forces of Pitch Black.</p>
+            <p><b>Opinion:</b> Simply wonderful film, I could watch it 82 more times and still like it</p>
+        </div>
+    </div>
+
+    <h3 id="tvshows" class="section">TV Shows</h3>
+
+    <!-- Item 1 -->
+    <div class="item">
+        <img src="images/Smiling.jpeg" alt="Falling into your smile">
+        <h4>Falling Into Your Smile</h4>
+    </div>
+    <div class="accordion">
+        <button class="accordion-button">See Synopsis</button>
+        <div class="accordion-content">
+            <p><strong>Falling Into Your Smile</strong> is a romantic drama about a young woman navigating the male-dominated world of professional esports while pursuing her dreams and finding love.</p>
+            <p><b>Overall opinions:</b> You don't understand how much I like this series, the fact that there is no second season felt like a personal attack. 👹
+                conclusion: I like it a lot (a lot)</p>
+        </div>
+    </div>
+    <!-- Item 2 -->
+    <div class="item">
+        <img src="images/Grey'sAnatomy.jpg" alt="Grey's Anatomy">
+        <h4>Grey's Anatomy</h4>
+    </div>
+    <div class="accordion">
+        <button class="accordion-button">See Synopsis</button>
+        <div class="accordion-content">
+            <p><strong>Grey's Anatomy</strong> follows the lives of surgical interns, residents, and attendings as they evolve into seasoned doctors while trying to maintain personal lives and relationships.</p>
+            <p><b>Facts:</b> One of the best doctor series. That's all. (only up to season 11, actually...) Would I watch it again? Yes.</p>
+        </div>
+    </div>
+
+    <!-- Item 3 -->
+    <div class="item">
+        <img src="images/arrow.jpg" alt="Arrow">
+        <h4>Arrow</h4>
+    </div>
+    <div class="accordion">
+        <button class="accordion-button">See Synopsis</button>
+        <div class="accordion-content">
+            <p><strong>Arrow</strong> is a superhero series that follows billionaire Oliver Queen as he returns to Star City and becomes a vigilante to fight crime and corruption.</p>
+            <p><b>Honest reviews:</b> Oliver Queen>>> Great series, honestly, my mom was really stressed out watching it because they just keep showing tragedy after tragedy, anyway, I really want to watch it again, eventually.</p>
+        </div>
+    </div>
+
+
+        <div>
+            <h2 id="table" class="section">People I admire</h2>
+            <table>
+                <tr>
+                    <th>Picture</th>
+                    <th>Name</th>
+                    <th>Date of Birth / Date of Death</th>
+                    <th>Profession</th>
+                    <th>Achievements / Famous Work</th>
+                </tr>
+                <!-- P1 -->
+                <tr>
+                    <td><img src="images/Zendaya.jpg" alt="Zendaya"></td>
+                    <td>Zendaya</td>
+                    <td>September 1st 1996</td>
+                    <td>Actress</td>
+                    <td>
+                        <ul>
+                            <li>Youngest actress to win an Emmy for a drama series.</li>
+                            <li>Known as a "fashion icon"</li>
+                            <li>Debuted as a designer with a collection for Tommy Hilfiger, TommyxZendaya, and is the face of Lancôme</li>
+                            <p><b>Famous work</b></p>
+                            <li>Euphoria</li>
+                            <li>Dune</li>
+                            <li>Jon Watts's Spider-Man</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!-- P2 -->
+                <tr>
+                    <td><img src="images/StrayKids.jpg" alt="SKZ"></td>
+                    <td>Stray Kids</td>
+                    <td>Group's debut date: March 25th, 2018</td>
+                    <td>Singers</td>
+                    <td>
+                        <ul>
+                            <li>#1 on the Billboard 200 twice in 2022, with the albums "Oddinary" and "Maxident."</li>
+                            <li>Received awards such as the Golden Disc Award, MAMA Award for Most Popular Group, MTV Award for Best K-pop Video, among others.</li>
+                            <li>Some members of the group are ambassadors and have worked with major brands such as Versace, Louis Vuitton, Alexander McQueen, Tommy Hilfiger, etc.</li>
+                            <p><b>Famous work</b></p>
+                            <li>"God's Menu" - GO LIVE</li>
+                            <li>"Maniac" - Oddinary</li>
+                            <li>"S-Class" - 5 Star</li>
+                        </ul>
+                    </td>
+                </tr>
+                <!-- P3 -->
+                <tr>
+                    <td><img src="images/Monet.jpeg" alt="Monet"></td>
+                    <td>Claude Monet</td>
+                    <td>November 14th 1840 / December 5th 1926</td>
+                    <td>Painter</td>
+                    <td>
+                        <ul>
+                            <li>One of the founders of the French Impressionist movement.</li>
+                            <li>His works have been exhibited in some of the most prestigious galleries in the world.</li>
+                            <li>One of the first artists to explore the technique of “series” or “repetition”.</li>
+                            <p><b>Famous work</b></p>
+                            <li>Impression, Sunrise</li>
+                            <li>Bridge over a Pond of Water Lilies</li>
+                            <li>Women with a Parasol</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h2 id="agenda" class="section">Weekly Schedule Form</h2>
+            <form id="schedule-form">
+                <!-- Date -->
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br>
+                <hr>
+
+                <!-- Time -->
+                <label for="time-start">Time Start:</label>
+                <input type="time" id="time-start" name="time-start"><br>
+
+                <label for="time-end">Time End:</label>
+                <input type="time" id="time-end" name="time-end"><br>
+                <hr>
+
+                <!-- Activity -->
+                <label for="activity">Activity:</label>
+                <input type="text" id="activity" name="activity"><br>
+                <hr>
+
+                <!-- Place -->
+                <label for="place">Place:</label>
+                <input type="text" id="place" name="place"><br>
+                <hr>
+
+                <!-- Type -->
+                <label for="type">Type:</label>
+                <select id="type" name="type">
+                    <option value="school">School</option>
+                    <option value="personal">Personal</option>
+                    <option value="professional">Professional</option>
+                    <option value="familiar">Familiar</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <hr>
+
+                <!-- Notes -->
+                <label for="notes">Notes:</label><br>
+                <textarea id="notes" name="notes" rows="4" cols="50"></textarea><br>
+                <hr>
+
+                <!-- Flag -->
+                <label for="flag">Flag (color):</label>
+                <input type="color" id="flag" name="flag"><br>
+                <hr>
+
+                <!-- Free/Busy -->
+                <label for="free-busy">Free/Busy:</label>
+                <input type="checkbox" id="free-busy" name="free-busy" value="busy"> Busy<br>
+                <hr>
+
+                <!-- Submit -->
+                <input type="submit" value="Submit">
+            </form>
+
+            <div id="appointments-container">
+                <h3>Appointments</h3>
+                <table id="schedule-table" border="1">
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Time Start</th>
+                            <th>Time End</th>
+                            <th>Activity</th>
+                            <th>Place</th>
+                            <th>Type</th>
+                            <th>Notes</th>
+                            <th>Flag (Color)</th>
+                            <th>Free/Busy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,25 @@
+h2:hover{
+    color:rgb(146, 47, 185);
+    font-weight: bolder;
+ }
+
+.header{
+  text-align: center;
+  background-position: center;
+  padding: 20px;
+  border-bottom: 5px solid #742ea3;
+  color: #f8eafe;
+  background-image:url('/Users/mariem/Documents/Diseño Web/WEB(css)/images/Fondo2.JPG');
+  background-size: cover; 
+}
+
+.page-container{
+    width: 80%; 
+      max-width: 1200px;
+      margin: 45px auto; 
+      background-color: #efe1f4;
+      padding: 20px;
+      border: 1px solid #ccc; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+      border-radius: 10px;
+  }
