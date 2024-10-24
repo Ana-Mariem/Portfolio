@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express test</title>
+</head>
+
+<body>
+    <h1>Registro de nombres</h1>
+    <form action="/greet" method="get">
+        Register:
+        <input type="text" name="name" id="name" placeholder="Name">
+        <input type="submit" value="go next">
+    </form>
+
+    <h2>Greeting List</h2>
+    <ul>
+        <% if (names) { %>
+            <% names.forEach(function(name, index) { %>
+                <li>
+                    <a href="/greet/wazzup/<%= index %>"><%= name %></a>
+                </li>
+            <% }); %>
+        <% } %>
+    </ul>
+
+    <h2>TODO List</h2>
+    <ul>
+        <% if (tasks) { %>
+            <% tasks.forEach(function(task, index) { %>
+                <li>
+                    <%= task %> 
+                    <form action="/task/delete/<%= index %>" method="post" style="display:inline">
+                        <button type="submit">Delete</button>
+                    </form>
+                    <a href="/task/up/<%= index %>">Up</a>
+                    <a href="/task/down/<%= index %>">Down</a>
+                </li>
+            <% }); %>
+        <% } %>
+    </ul>
+
+    <form action="/task" method="post">
+        <input type="text" name="task" placeholder="New Task">
+        <input type="submit" value="Add Task">
+    </form>
+</body>
+
+</html>
