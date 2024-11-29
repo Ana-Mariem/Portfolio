@@ -1,0 +1,69 @@
+.movie-card {
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 16px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .movie-poster {
+    width: 100px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .movie-poster.good {
+    border: 2px solid blue;
+  }
+  
+  .movie-poster.evil {
+    border: 2px solid red;
+  }
+  
+  .actions button {
+    margin: 5px;
+  }
+  
+  .movie-details {
+    margin-top: 20px;
+  }
+  
+  form input, form textarea {
+    display: block;
+    margin: 10px 0;
+  }
+
+  
+  .comments-section {
+    margin-top: 20px;
+  }
+  
+  .comments-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .comments-section li {
+    margin-bottom: 10px;
+  }
+  
+  .comment-form input,
+  .comment-form textarea {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+  }
+  
+  .comment-form button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .comment-form button:hover {
+    background-color: #0056b3;
+  }
+  
